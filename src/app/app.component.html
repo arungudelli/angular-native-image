@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<ng-container *ngFor="let i of imagesCount">
+  <img
+    src="https://angular.io/assets/images/logos/angular/angular.png"
+    [ngClass]="i"
+  />
+</ng-container>
+
+<!-- <ng-container *ngFor="let i of imagesCount">
+  <img
+    rawSrc="https://angular.io/assets/images/logos/angular/angular.png"
+    width="250"
+    height="250"
+    [ngClass]="i"
+  />
+</ng-container> -->
